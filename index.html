@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d19">
+  <meta name="description" content="Class 10th Study Hub — your personal learning space.">
+  <title>Class 10th Study Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <a class="brand" href="#" aria-label="Class 10th Study Hub home">
+      <span class="brand-mark">S</span>
+      <span class="brand-copy"><strong>Class 10th Study Hub</strong><small>Your personal learning space</small></span>
+    </a>
+    <div class="top-actions">
+      <div class="date-chip" id="clock">--:--</div>
+      <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle light theme">☼</button>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-label">YOUR SPACE</div>
+    <a href="#home" class="side-link active" data-target="home"><span>⌂</span> Home</a>
+    <a href="#library" class="side-link" data-target="library"><span>▤</span> Study Library</a>
+    <a href="#flashcards" class="side-link" data-target="flashcards"><span>▣</span> Flashcards</a>
+    <a href="#games" class="side-link" data-target="games"><span>♧</span> Learning Games</a>
+    <a href="#notes" class="side-link" data-target="notes"><span>✎</span> Quick Notes</a>
+    <a href="#tools" class="side-link" data-target="tools"><span>⌘</span> Study Tools</a>
+    <a href="#progress" class="side-link" data-target="progress"><span>◷</span> Your Progress</a>
+    <div class="sidebar-spacer"></div>
+    <div class="sidebar-footer-links">
+      <a href="#settings" class="side-link" data-target="settings"><span>⚙</span> Settings</a>
+      <a href="#about-developer" class="side-link" data-target="about-developer"><span>⌘</span> About Developer</a>
+    </div>
+    <div class="sidebar-bottom"><div class="mini-orb">✦</div><strong>Small steps, big results.</strong><p>Make today a little more productive.</p></div>
+  </aside>
+  <div class="sidebar-scrim" id="sidebarScrim"></div>
+
+  <main class="main-content" id="home">
+    <section class="hero panel">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> YOUR PERSONAL LEARNING SPACE</div>
+        <h1>A better way<br>to <span>learn every day.</span></h1>
+        <p>Learn at your own pace. Explore new ideas. Make every study session count.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#library">Explore Library <span>↗</span></a>
+          <a class="btn btn-secondary" href="#flashcards">Revise with Flashcards</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="planet"><span>✦</span></div>
+        <div class="float-tag tag-top">✧ Curiosity</div>
+        <div class="float-tag tag-bottom">↗ Progress</div>
+        <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div>
+      </div>
+    </section>
+
+    <section class="workspace-section">
+      <div class="section-heading">
+        <div><div class="eyebrow">YOUR WORKSPACE</div><h2>What would you like to do?</h2></div>
+        <p>Choose your next step</p>
+      </div>
+      <div class="feature-grid">
+        <a class="feature-card" href="#library" id="libraryCard"><span class="card-arrow">↗</span><span class="feature-icon">▤</span><h3>Open Library</h3><p>Explore subjects, chapters and learning materials.</p><span class="card-link">Explore library →</span></a>
+        <a class="feature-card" href="#flashcards"><span class="card-arrow">↗</span><span class="feature-icon">▣</span><h3>Flashcards</h3><p>Practise questions and revise important concepts.</p><span class="card-link">Start revising →</span></a>
+        <a class="feature-card" href="#games"><span class="card-arrow">↗</span><span class="feature-icon">♧</span><h3>Learning Games</h3><p>Challenge yourself with interactive mini-games.</p><span class="card-link">Play & learn →</span></a>
+        <a class="feature-card" href="#notes"><span class="card-arrow">↗</span><span class="feature-icon">✎</span><h3>Quick Notes</h3><p>Write down ideas and keep your notes organised.</p><span class="card-link">Write something →</span></a>
+        <a class="feature-card" href="#tools"><span class="card-arrow">↗</span><span class="feature-icon">⌘</span><h3>Study Tools</h3><p>Use your calculator, word counter and study timer.</p><span class="card-link">Open tools →</span></a>
+        <a class="feature-card" href="#progress"><span class="card-arrow">↗</span><span class="feature-icon">◷</span><h3>Your Progress</h3><p>Track the chapters and flashcards you complete.</p><span class="card-link">View progress →</span></a>
+      </div>
+    </section>
+
+    <section class="content-section panel" id="library">
+      <div class="section-heading"><div><div class="eyebrow">LEARN SOMETHING NEW</div><h2>Study Library</h2></div><span class="subtle">Choose a subject to begin</span></div>
+      <div class="subject-grid">
+        <button class="subject-card" data-subject="Mathematics"><span class="subject-symbol math">∑</span><span><strong>Mathematics</strong><small>Concepts, examples & practice</small></span><span class="subject-arrow">↗</span></button>
+        <button class="subject-card" data-subject="Science"><span class="subject-symbol science">⚛</span><span><strong>Science</strong><small>Explore how things work</small></span><span class="subject-arrow">↗</span></button>
+        <button class="subject-card" data-subject="Social Science"><span class="subject-symbol social">◎</span><span><strong>Social Science</strong><small>History, geography & more</small></span><span class="subject-arrow">↗</span></button>
+        <button class="subject-card" data-subject="English"><span class="subject-symbol english">Aa</span><span><strong>English</strong><small>Reading, writing & grammar</small></span><span class="subject-arrow">↗</span></button>
+        <button class="subject-card" data-subject="Hindi"><span class="subject-symbol hindi">अ</span><span><strong>Hindi</strong><small>Literature & language practice</small></span><span class="subject-arrow">↗</span></button>
+        <button class="subject-card" data-subject="Information Technology"><span class="subject-symbol it">⌘</span><span><strong>Information Technology</strong><small>Digital skills & practical learning</small></span><span class="subject-arrow">↗</span></button>
+      </div>
+      <div class="inline-notice" id="subjectNotice">Select a subject to open its study area. Chapter content can be added here as we build each section.</div>
+    </section>
+
+    <section class="content-section panel" id="flashcards">
+      <div class="section-heading"><div><div class="eyebrow">QUICK REVISION</div><h2>Flashcards</h2></div><span class="subtle" id="flashCount">Card 1 of 3</span></div>
+      <div class="flashcard-wrap">
+        <button class="flashcard" id="flashcard" aria-label="Tap to reveal answer"><span class="flash-label" id="flashLabel">QUESTION</span><strong id="flashQuestion">What is the value of π (pi) approximately?</strong><span class="flash-hint" id="flashHint">Tap the card to reveal the answer</span></button>
+        <div class="flash-controls"><button class="btn btn-secondary" id="prevFlash">← Previous</button><button class="btn btn-primary" id="nextFlash">Next card →</button></div>
+      </div>
+    </section>
+
+    <section class="content-section panel" id="games">
+      <div class="section-heading"><div><div class="eyebrow">TAKE A QUICK BREAK</div><h2>Learning Games</h2></div><span class="subtle">A little practice goes a long way</span></div>
+      <div class="quiz-box"><div class="quiz-top"><span class="feature-icon">✦</span><span class="quiz-progress" id="quizProgress">QUESTION 1 / 3</span></div><h3 id="quizQuestion">Which gas do plants absorb during photosynthesis?</h3><div class="quiz-options" id="quizOptions"></div><p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p><button class="btn btn-primary" id="nextQuiz" hidden>Next question →</button></div>
+    </section>
+
+    <section class="content-section panel" id="notes">
+      <div class="section-heading"><div><div class="eyebrow">YOUR IDEAS, IN ONE PLACE</div><h2>Quick Notes</h2></div><span class="subtle">Saved on this device</span></div>
+      <label class="field-label" for="noteTitle">Note title</label><input id="noteTitle" class="text-input" placeholder="e.g. Important formulas">
+      <label class="field-label" for="noteText">Your note</label><textarea id="noteText" class="text-input note-area" placeholder="Write a reminder, idea or key concept..."></textarea>
+      <div class="note-actions"><button class="btn btn-primary" id="saveNote">Save note</button><span id="noteStatus" class="subtle" aria-live="polite"></span></div>
+      <div class="saved-notes" id="savedNotes"></div>
+    </section>
+
+    <section class="content-section panel" id="tools">
+      <div class="section-heading"><div><div class="eyebrow">MAKE STUDY TIME COUNT</div><h2>Study Tools</h2></div></div>
+      <div class="tools-grid">
+        <div class="tool-card"><span class="tool-icon">◷</span><h3>Focus timer</h3><div class="timer-display" id="timerDisplay">25:00</div><div class="tool-actions"><button class="btn btn-primary" id="timerStart">Start</button><button class="btn btn-secondary" id="timerReset">Reset</button></div><small>Try a focused 25-minute session.</small></div>
+        <div class="tool-card"><span class="tool-icon">∑</span><h3>Quick calculator</h3><input class="text-input calc-input" id="calcInput" placeholder="e.g. (12 + 8) * 3"><button class="btn btn-primary" id="calculate">Calculate</button><div class="calc-result" id="calcResult">Your result will appear here.</div><small>Use numbers and basic operators only.</small></div>
+        <div class="tool-card"><span class="tool-icon">Aa</span><h3>Word counter</h3><textarea class="text-input word-input" id="wordInput" placeholder="Paste or type your paragraph..."></textarea><div class="word-stats"><span><strong id="wordCount">0</strong> words</span><span><strong id="charCount">0</strong> characters</span></div></div>
+      </div>
+    </section>
+
+    <section class="content-section panel" id="progress">
+      <div class="section-heading"><div><div class="eyebrow">EVERY STEP MATTERS</div><h2>Your Progress</h2></div></div>
+      <div class="progress-layout"><div class="progress-ring"><div><strong id="progressPercent">0%</strong><small>completed</small></div></div><div class="progress-copy"><h3>Build your study streak</h3><p>Mark a study goal as complete and watch your progress grow. Your progress is saved on this device.</p><label class="goal-row"><input type="checkbox" class="goal-check"> <span>Revise one topic</span></label><label class="goal-row"><input type="checkbox" class="goal-check"> <span>Practise 5 questions</span></label><label class="goal-row"><input type="checkbox" class="goal-check"> <span>Review my notes</span></label><label class="goal-row"><input type="checkbox" class="goal-check"> <span>Complete a focus session</span></label></div></div>
+    </section>
+
+    <section class="content-section panel" id="settings">
+      <div class="section-heading"><div><div class="eyebrow">MAKE IT YOUR OWN</div><h2>Settings</h2></div><span class="subtle">Personalise your study space</span></div>
+      <div class="settings-grid">
+        <div class="setting-row"><span class="setting-icon">☼</span><div class="setting-copy"><strong>Appearance</strong><small>Switch between dark and light themes.</small></div><button class="btn btn-secondary" id="settingsThemeToggle">Toggle theme</button></div>
+        <div class="setting-row"><span class="setting-icon">✓</span><div class="setting-copy"><strong>Study progress</strong><small>Reset your checklist if you want a fresh start.</small></div><button class="btn btn-secondary" id="resetProgress">Reset progress</button></div>
+        <div class="setting-row"><span class="setting-icon">✎</span><div class="setting-copy"><strong>Saved notes</strong><small>Remove notes saved on this device.</small></div><button class="btn btn-secondary" id="clearNotes">Clear notes</button></div>
+      </div>
+      <p class="settings-note">Your notes, theme choice and checklist are stored in this browser on this device.</p>
+    </section>
+
+    <section class="content-section panel" id="about-developer">
+      <div class="section-heading"><div><div class="eyebrow">BEHIND THE HUB</div><h2>About Developer</h2></div></div>
+      <div class="developer-card"><div class="developer-avatar">S</div><div><h3>Class 10th Study Hub</h3><p>A student-focused learning space designed to make revision, practice and everyday study more organised.</p><span class="developer-tag">Built for learning ✦</span></div></div>
+      <p class="settings-note">Developer name and contact details can be added here whenever you want them displayed.</p>
+    </section>
+
+    <footer class="footer"><span class="footer-mark">S</span><div><strong>Class 10th Study Hub</strong><p>Keep learning. Keep growing.</p></div><span class="footer-right">Made for curious minds ✦</span></footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
