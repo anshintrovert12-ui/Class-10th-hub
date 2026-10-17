@@ -189,10 +189,19 @@ main{padding:20px 13px}
 .dark .card-action{background:#202430;color:#f4f5fa}.dark .question-note,.dark .test-intro{background:#202430;border-color:#363b4d}.dark .result-box{background:#17251d}.dark .result-bar{background:#363b4d}
 @media(max-width:600px){.result-main{align-items:flex-start}.result-percent{font-size:32px}.flash-card{min-height:250px}.option{font-size:14px}.card-action{width:100%}}
 /* --- Infographics Image Responsive Fix --- */
-.info-viewer img {
+/* --- 100% Universal Image Responsiveness Fix --- */
+img {
   max-width: 100% !important;
   height: auto !important;
-  object-fit: contain;
   display: block;
+  object-fit: contain;
+}
+
+/* Infographic viewer specific container adjustment */
+.info-viewer img {
+  width: 100% !important;
+  max-height: 75vh !important;
+  object-fit: contain;
   margin: 0 auto;
 }
+
