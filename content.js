@@ -133,7 +133,17 @@ Electricity:["Electric current is the rate of flow of electric charge, I=Q/t.","
 "Our Environment":["An ecosystem includes living organisms and their physical environment.","Energy flows through food chains and only a small fraction is transferred to the next trophic level.","Biodegradable substances can be decomposed by microorganisms, while non-biodegradable substances persist for long periods.","Ozone in the upper atmosphere absorbs harmful ultraviolet radiation; chemicals such as CFCs have contributed to ozone depletion."]};
 for(const [k,v] of Object.entries(SCI))C[k]=v;
 function factFor(subject,ch){return (C[ch]||[`${ch} covers important Class 10 concepts that should be revised from the textbook.`]).slice(0,4)}
-const INFOGRAPHICS={};
+const INFOGRAPHICS={
+    "Science": {
+    "Chemical Reactions and Equations": [
+      "assets/infographics/science-ch1-1.png",
+      "assets/infographics/science-ch1-2.png",
+      "assets/infographics/science-ch1-3.png",
+      "assets/infographics/science-ch1-4.png",
+      "assets/infographics/science-ch1-5.png"
+    ]
+    }
+};
 
 
 /* Original practice bank helpers. These keep the current page structure intact. */
