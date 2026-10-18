@@ -188,9 +188,9 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch6-2.png",
       "assets/infographics/science-ch6-3.png",
       "assets/infographics/science-ch6-4.png",
-      "assets/infographics/science-ch6-5.png"
-       "assets/infographics/science-ch6-6.png"
-       "assets/infographics/science-ch6-7.png"
+      "assets/infographics/science-ch6-5.png",
+       "assets/infographics/science-ch6-6.png",
+       "assets/infographics/science-ch6-7.png",
        "assets/infographics/science-ch6-8.png"
     ]
   }
