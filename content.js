@@ -234,6 +234,13 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch11-3.png",
       "assets/infographics/science-ch11-4.png",
       "assets/infographics/science-ch11-5.png"
+      ],
+    "Electricity": [
+      "assets/infographics/science-ch12-1.png",
+      "assets/infographics/science-ch12-2.png",
+      "assets/infographics/science-ch12-3.png",
+      "assets/infographics/science-ch12-4.png",
+      "assets/infographics/science-ch12-5.png"
       ]
   }
 };
