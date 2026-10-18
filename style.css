@@ -194,3 +194,36 @@ body.diwali .card,body.diwali .resource-card,body.diwali .qa-item,body.diwali .q
 body.diwali .card p,body.diwali .card h1,body.diwali .card h2,body.diwali .card h3,body.diwali .card span,body.diwali .qa-answer,body.diwali .question h3{color:#fff!important}
 body.diwali .btn,body.diwali button{border-color:#ffd54a}
 body{overflow-x:hidden}
+/* --- Final Infographic Responsive & Viewer Fix --- */
+.info-viewer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #f5f6fb;
+  border-radius: 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#infoViewer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 75vh;
+  overflow: hidden;
+}
+
+#infoViewer img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 75vh !important;
+  object-fit: contain !important;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
