@@ -168,7 +168,13 @@ const INFOGRAPHICS={
   "assets/infographics/science-ch2-3.png",
   "assets/infographics/science-ch2-4.png",
   "assets/infographics/science-ch2-5.png"
-]
-    
+],
+     "Metals and Non-metals": [
+      "assets/infographics/science-ch3-1.png",
+      "assets/infographics/science-ch3-2.png",
+      "assets/infographics/science-ch3-3.png"
+       "assets/infographics/science-ch3-5.png"
+       "assets/infographics/science-ch3-5.png"
+    ] 
   }
 };
