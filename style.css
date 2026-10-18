@@ -194,36 +194,40 @@ body.diwali .card,body.diwali .resource-card,body.diwali .qa-item,body.diwali .q
 body.diwali .card p,body.diwali .card h1,body.diwali .card h2,body.diwali .card h3,body.diwali .card span,body.diwali .qa-answer,body.diwali .question h3{color:#fff!important}
 body.diwali .btn,body.diwali button{border-color:#ffd54a}
 body{overflow-x:hidden}
-/* --- Final Infographic Responsive & Viewer Fix --- */
+/* Infographics Viewer Container */
 .info-viewer {
   width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  max-height: 80vh; /* Screen ki height ke hisab se adjust hoga */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 15px;
-  background: #f5f6fb;
-  border-radius: 18px;
+  overflow: hidden; /* Canvas ya image ko overflow hone se rokne ke liye */
   box-sizing: border-box;
-  overflow: hidden;
 }
 
-#infoViewer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 75vh;
-  overflow: hidden;
-}
-
-#infoViewer img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  max-height: 75vh !important;
-  object-fit: contain !important;
+/* Infographic Image Styling */
+.info-viewer img {
+  max-width: 100%; /* Image container se bahar nahi jayegi */
+  height: auto; /* Aspect ratio kharab nahi hoga */
+  max-height: 70vh; /* Screen ki height me properly fit hogi */
+  object-fit: contain; /* Full image visible rahegi bina stretch hue */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   display: block;
   margin: 0 auto;
-  border-radius: 10px;
+}
+
+/* Mobile Screens ke liye Extra Adjustments */
+@media (max-width: 650px) {
+  .info-viewer {
+    padding: 8px;
+    min-height: 220px;
+  }
+  
+  .info-viewer img {
+    max-height: 60vh;
+  }
 }
