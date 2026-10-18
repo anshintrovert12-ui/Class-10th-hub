@@ -202,6 +202,16 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch7-6.png",
       "assets/infographics/science-ch7-7.png",
       "assets/infographics/science-ch7-8.png"
-    ]
+    ],
+    "Control and Coordination": [
+      "assets/infographics/science-ch8-1.png",
+      "assets/infographics/science-ch8-2.png",
+      "assets/infographics/science-ch8-3.png",
+      "assets/infographics/science-ch8-4.png",
+      "assets/infographics/science-ch8-5.png",
+      "assets/infographics/science-ch8-6.png",
+      "assets/infographics/science-ch8-7.png",
+      "assets/infographics/science-ch8-8.png"
+      ]
   }
 };
