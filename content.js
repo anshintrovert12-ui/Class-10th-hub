@@ -212,6 +212,12 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch8-6.png",
       "assets/infographics/science-ch8-7.png",
       "assets/infographics/science-ch8-8.png"
+      ],
+    "Heredity": [
+      "assets/infographics/science-ch9-1.png",
+      "assets/infographics/science-ch9-2.png",
+      "assets/infographics/science-ch9-3.png",
+      "assets/infographics/science-ch9-4.png"
       ]
   }
 };
