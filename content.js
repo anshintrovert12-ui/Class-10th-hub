@@ -172,8 +172,8 @@ const INFOGRAPHICS={
      "Metals and Non-metals": [
       "assets/infographics/science-ch3-1.png",
       "assets/infographics/science-ch3-2.png",
-      "assets/infographics/science-ch3-3.png"
-       "assets/infographics/science-ch3-4.png"
+      "assets/infographics/science-ch3-3.png",
+       "assets/infographics/science-ch3-4.png",
        "assets/infographics/science-ch3-5.png"
     ] 
   }
