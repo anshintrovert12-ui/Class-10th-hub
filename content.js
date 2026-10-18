@@ -161,7 +161,7 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch1-4.png",
       "assets/infographics/science-ch1-5.png",
       "assets/infographics/science-ch1-6.png"
-    ]
+    ],
     "Acids, Bases and Salts": [
   "assets/infographics/science-ch2-1.png",
   "assets/infographics/science-ch2-2.png",
