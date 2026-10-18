@@ -192,6 +192,6 @@ const INFOGRAPHICS={
        "assets/infographics/science-ch6-6.png",
        "assets/infographics/science-ch6-7.png",
        "assets/infographics/science-ch6-8.png"
-    ]
+    ],
   }
 };
