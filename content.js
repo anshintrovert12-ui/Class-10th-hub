@@ -227,6 +227,13 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch10-5.png",
       "assets/infographics/science-ch10-6.png",
       "assets/infographics/science-ch10-7.png"
+      ],
+    "The Human Eye and the Colourful World": [
+      "assets/infographics/science-ch11-1.png",
+      "assets/infographics/science-ch11-2.png",
+      "assets/infographics/science-ch11-3.png",
+      "assets/infographics/science-ch11-4.png",
+      "assets/infographics/science-ch11-5.png"
       ]
   }
 };
