@@ -192,6 +192,16 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch6-6.png",
       "assets/infographics/science-ch6-7.png",
       "assets/infographics/science-ch6-8.png"
+    ],
+    "How do Organisms Reproduce?": [
+      "assets/infographics/science-ch7-1.png",
+      "assets/infographics/science-ch7-2.png",
+      "assets/infographics/science-ch7-3.png",
+      "assets/infographics/science-ch7-4.png",
+      "assets/infographics/science-ch7-5.png",
+      "assets/infographics/science-ch7-6.png",
+      "assets/infographics/science-ch7-7.png",
+      "assets/infographics/science-ch7-8.png"
     ]
   }
 };
