@@ -182,9 +182,9 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch4-3.png",
       "assets/infographics/science-ch4-4.png",
     "assets/infographics/science-ch4-5.png",
-       "assets/infographics/science-ch4-5.png",
-       "assets/infographics/science-ch4-5.png",
-       "assets/infographics/science-ch4-5.png"
+       "assets/infographics/science-ch4-6.png",
+       "assets/infographics/science-ch4-7.png",
+       "assets/infographics/science-ch4-8.png"
    ]
   }
 };
