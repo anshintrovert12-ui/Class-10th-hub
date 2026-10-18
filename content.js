@@ -168,7 +168,7 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch2-3.png",
       "assets/infographics/science-ch2-4.png",
       "assets/infographics/science-ch2-5.png"
-    ],  // <-- Yahan comma (,) hona zaroori hai!
+    ],  // <--- Yahan comma (,) hona zaroori hai (jo add kar diya gaya hai)
     "Metals and Non-metals": [
       "assets/infographics/science-ch3-1.png",
       "assets/infographics/science-ch3-2.png",
@@ -176,22 +176,22 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch3-4.png",
       "assets/infographics/science-ch3-5.png"
     ],
-     "Carbon and its Compounds": [
+    "Carbon and its Compounds": [
       "assets/infographics/science-ch4-1.png",
       "assets/infographics/science-ch4-2.png",
       "assets/infographics/science-ch4-3.png",
       "assets/infographics/science-ch4-4.png",
-    "assets/infographics/science-ch4-5.png"
-   ],
+      "assets/infographics/science-ch4-5.png"
+    ],
     "Life Processes": [
       "assets/infographics/science-ch6-1.png",
       "assets/infographics/science-ch6-2.png",
       "assets/infographics/science-ch6-3.png",
       "assets/infographics/science-ch6-4.png",
       "assets/infographics/science-ch6-5.png",
-       "assets/infographics/science-ch6-6.png",
-       "assets/infographics/science-ch6-7.png",
-       "assets/infographics/science-ch6-8.png"
-    ],
+      "assets/infographics/science-ch6-6.png",
+      "assets/infographics/science-ch6-7.png",
+      "assets/infographics/science-ch6-8.png"
+    ]
   }
 };
