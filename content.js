@@ -175,6 +175,16 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch3-3.png",
       "assets/infographics/science-ch3-4.png",
       "assets/infographics/science-ch3-5.png"
-    ]
+    ],
+     "Carbon and its Compounds": [
+      "assets/infographics/science-ch4-1.png",
+      "assets/infographics/science-ch4-2.png",
+      "assets/infographics/science-ch4-3.png",
+      "assets/infographics/science-ch4-4.png",
+    "assets/infographics/science-ch4-5.png",
+       "assets/infographics/science-ch4-5.png",
+       "assets/infographics/science-ch4-5.png",
+       "assets/infographics/science-ch4-5.png"
+   ]
   }
 };
