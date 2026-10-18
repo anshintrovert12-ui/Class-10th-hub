@@ -152,4 +152,15 @@ function makeMCQs(subject,chapter,n=25){
  return nonMathMCQs(subject,chapter).slice(0,n);
 }
 function answersFor(subject,chapter){return qaFromFacts(subject,chapter)}
-const INFOGRAPHICS={};
+const INFOGRAPHICS={
+  "Science": {
+    "Chemical Reactions and Equations": [
+      "assets/infographics/science-ch1-1.png",
+      "assets/infographics/science-ch1-2.png",
+      "assets/infographics/science-ch1-3.png",
+      "assets/infographics/science-ch1-4.png",
+      "assets/infographics/science-ch1-5.png",
+      "assets/infographics/science-ch1-6.png"
+    ]
+  }
+};
