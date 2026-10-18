@@ -218,6 +218,15 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch9-2.png",
       "assets/infographics/science-ch9-3.png",
       "assets/infographics/science-ch9-4.png"
+      ],
+    "Light – Reflection and Refraction": [
+      "assets/infographics/science-ch10-1.png",
+      "assets/infographics/science-ch10-2.png",
+      "assets/infographics/science-ch10-3.png",
+      "assets/infographics/science-ch10-4.png",
+      "assets/infographics/science-ch10-5.png",
+      "assets/infographics/science-ch10-6.png",
+      "assets/infographics/science-ch10-7.png"
       ]
   }
 };
