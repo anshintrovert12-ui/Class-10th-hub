@@ -280,7 +280,12 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch12-3.png",
       "assets/infographics/science-ch12-4.png",
       "assets/infographics/science-ch12-5.png"
-      ]
+      ],
+    "Magnetic Effects of Electric Current": [
+      "assets/infographics/science-ch13-1.png",
+      "assets/infographics/science-ch13-2.png",
+      "assets/infographics/science-ch13-3.png"
+  ]
   }
 };
 
