@@ -285,7 +285,14 @@ const INFOGRAPHICS={
       "assets/infographics/science-ch13-1.png",
       "assets/infographics/science-ch13-2.png",
       "assets/infographics/science-ch13-3.png"
-  ]
+  ],
+    "Our Environment": [
+      "assets/infographics/science-ch14-1.png",
+      "assets/infographics/science-ch14-2.png",
+      "assets/infographics/science-ch14-3.png",
+      "assets/infographics/science-ch14-4.png",
+      "assets/infographics/science-ch14-5.png"
+      ]
   }
 };
 
